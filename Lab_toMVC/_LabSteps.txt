@@ -1,0 +1,46 @@
+Lab: 改寫系統成 MVC 架構
+
+
+<Note>
+建議先完成 Lab_EasyMVC，再進行本練習。
+
+
+1.  環境設定
+
+1.1 連線 MySQL 並執行 SetupDB.txt 以備妥本練習所需的資料庫。
+
+1.2 檢視 Lab_Login 的 config.php，視需要修改設計，例如密碼。
+
+1.3 試用 Lab_Login，確定系統可順利執行。
+
+1.4 檢視 Lab_Login 各支 PHP 程式的內容。
+
+
+2.  將 Lab_Login 的畫面搬到 Lab_Login_MVC
+
+2.1 將 Lab_Login_MVC 搬到 Workspace 主目錄:
+    Lab
+        └ Lab_Login_MVC
+
+2.2 將 Lab_Login 的畫面搬到 Lab_Login_MVC。
+
+<Note> 
+    這個階段，先將畫面搬到 views 資料夾，
+    login.php 與 member.php 檔案上方的 PHP 程式都請刪去
+    如有困難，請參考 Lab_Login_MVC_step2 的作法
+
+
+3.  重建 Lab_Login_MVC 的登入功能
+
+<Note>
+    重建 Lab_Login_MVC 的登入功能，
+    檢查訪客的身份，只有登入過的會員才可看到會員專用頁
+
+<Note>
+    如果前一階段因故沒有完成，請備份你進行中的作品，
+    然後，將 Lab_Login_MVC_step2 裡頭的 Lab_Login_MVC 
+    搬到 Workspace 主目錄，接著往下練習。
+    Lab
+        └ Lab_Login_MVC
+
+
